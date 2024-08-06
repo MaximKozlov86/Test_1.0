@@ -17,7 +17,6 @@ public class Main {
         return new Scanner(System.in).nextDouble();
     }
     private static void proverkaChisla() {
-        if ((a % 2) == 0) System.out.println("true");
-        else System.out.println("false");
+        System.out.println(a % 2 == 0);
     }
 }
